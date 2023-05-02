@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "singh.indrajit300@gmail.com"
     },
-    "lastModifiedOn": 1683016686528
+    "lastModifiedOn": 1683016687101
   },
   "creationTag": {
     "versionNumber": 0,
@@ -75,9 +75,23 @@
   },
   "tags": [],
   "params": {
-    "uploadBoxId": "f2e4ca2790f9f0d921126e8a567c440e97317d6c556537dd25a643d34edfe95e",
-    "uploadConnection": "dataiku-managed-storage",
     "uploadFSProviderType": "S3",
+    "uploadedConfig": {
+      "bucket": "gis-data-us-east-1",
+      "metastoreSynchronizationEnabled": true,
+      "metastoreDatabaseName": "default",
+      "metastoreTableName": "${projectKey}_sales",
+      "connection": "dataiku-managed-storage",
+      "path": "/managed-dss-data/uploads/${projectKey}/sales",
+      "notReadyIfEmpty": false,
+      "filesSelectionRules": {
+        "mode": "ALL",
+        "excludeRules": [],
+        "includeRules": [],
+        "explicitFiles": []
+      }
+    },
+    "connection": "dataiku-managed-storage",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
