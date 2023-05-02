@@ -1,0 +1,34 @@
+{
+  "pages": [
+    {
+      "id": "rBEj18f",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "singh.indrajit300@gmail.com",
+  "listed": true,
+  "name": "test\u0027s default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "singh.indrajit300@gmail.com"
+    },
+    "lastModifiedOn": 1683016645577
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "singh.indrajit300@gmail.com"
+    },
+    "lastModifiedOn": 1683016645577
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
