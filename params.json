@@ -7,7 +7,7 @@
     "objects": []
   },
   "projectType": "REGULAR",
-  "projectAppType": "REGULAR",
+  "projectAppType": "APP_TEMPLATE",
   "hasSetupSection": false,
   "owner": "singh.indrajit300@gmail.com",
   "permissionsVersion": "V2",
@@ -207,11 +207,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
-      "login": "api:0RUTOPA1JKNBMRIC"
+      "login": "singh.indrajit300@gmail.com"
     },
-    "lastModifiedOn": 1683020174822
+    "lastModifiedOn": 1683090434737
   },
   "creationTag": {
     "versionNumber": 0,
