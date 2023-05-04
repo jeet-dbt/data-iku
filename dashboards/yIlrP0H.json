@@ -1,0 +1,34 @@
+{
+  "pages": [
+    {
+      "id": "Mj9v3XL",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "singh.indrajit300@gmail.com",
+  "listed": true,
+  "name": "dataiku-test\u0027s default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "singh.indrajit300@gmail.com"
+    },
+    "lastModifiedOn": 1683211143539
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "singh.indrajit300@gmail.com"
+    },
+    "lastModifiedOn": 1683211143539
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
