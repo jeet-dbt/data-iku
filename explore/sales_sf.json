@@ -134,7 +134,10 @@
               "type": "NATURAL",
               "label": "Natural ordering",
               "sortAscending": true
-            }
+            },
+            "prefix": "",
+            "suffix": "",
+            "multiplier": "Auto"
           }
         ],
         "genericDimension1": [],
@@ -151,6 +154,9 @@
             "displayType": "column",
             "computeMode": "NORMAL",
             "computeModeDim": 0,
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": "",
             "showDisplayLabel": true,
             "labelPosition": "BOTTOM",
             "colorRules": []
