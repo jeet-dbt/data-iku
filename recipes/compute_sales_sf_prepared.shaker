@@ -28,8 +28,26 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "TXN_DATE"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -55,7 +73,13 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "QUALITY": 100,
+    "TXN_DATE": 106,
+    "CUSTOMER_ID": 100,
+    "TOTAL_SALES": 100,
+    "PRODUCT_ID": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
