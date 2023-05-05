@@ -8,7 +8,11 @@
         "readParams": {
           "mode": "AUTO",
           "autoModeRepartitionInto": 10,
-          "map": {}
+          "map": {
+            "sales_s3": {
+              "repartition": 10
+            }
+          }
         },
         "useGlobalMetastore": false,
         "useNativeProcessors": true,
@@ -68,11 +72,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "singh.indrajit300@gmail.com"
     },
-    "lastModifiedOn": 1683277805527
+    "lastModifiedOn": 1683277819966
   },
   "creationTag": {
     "versionNumber": 0,
