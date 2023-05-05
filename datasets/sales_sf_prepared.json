@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "singh.indrajit300@gmail.com"
     },
-    "lastModifiedOn": 1683277164080
+    "lastModifiedOn": 1683277550007
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,7 +91,6 @@
   },
   "schema": {
     "columns": [
-      {"name":"TXN_DATE","type":"string","maxLength":16777216},
       {"name":"CUSTOMER_ID","type":"bigint","maxLength":16777216},
       {"name":"PRODUCT_ID","type":"bigint","maxLength":16777216},
       {"name":"QUALITY","type":"bigint","maxLength":16777216},
