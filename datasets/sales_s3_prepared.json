@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "singh.indrajit300@gmail.com"
     },
-    "lastModifiedOn": 1683277805525
+    "lastModifiedOn": 1683277819590
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,7 +91,6 @@
   },
   "schema": {
     "columns": [
-      {"name":"Txn_Date","type":"string"},
       {"name":"Customer_Id","type":"bigint"},
       {"name":"Product_Id","type":"bigint"},
       {"name":"Quantity","type":"bigint"},
