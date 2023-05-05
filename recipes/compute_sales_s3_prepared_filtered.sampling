@@ -1,4 +1,27 @@
 {
+  "uiData": {
+    "mode": "SQL",
+    "$latestOperator": "\u0026\u0026",
+    "$filterOptions": "SQL",
+    "conditions": [
+      {
+        "input": "Customer_Id",
+        "col": "Product_Id",
+        "$showList": false,
+        "num": 0,
+        "items": [
+          {
+            "col": "Product_Id"
+          }
+        ],
+        "operator": "in [number]"
+      }
+    ]
+  },
+  "expression": "Customer_Id in (627)",
+  "$status": {
+    "validated": false
+  },
   "distinct": false,
-  "enabled": false
+  "enabled": true
 }
