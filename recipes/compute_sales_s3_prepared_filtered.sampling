@@ -18,7 +18,7 @@
       }
     ]
   },
-  "expression": "Customer_Id in (627)",
+  "expression": "Customer_Id in (\u0027627\u0027)",
   "$status": {
     "validated": false
   },
