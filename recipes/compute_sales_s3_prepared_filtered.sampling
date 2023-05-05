@@ -1,8 +1,8 @@
 {
   "uiData": {
-    "mode": "SQL",
+    "mode": "\u0026\u0026",
     "$latestOperator": "\u0026\u0026",
-    "$filterOptions": "SQL",
+    "$filterOptions": "rules",
     "conditions": [
       {
         "input": "Customer_Id",
@@ -11,7 +11,12 @@
         "num": 0,
         "items": [
           {
-            "col": "Product_Id"
+            "col": "Product_Id",
+            "num": 6279
+          },
+          {
+            "col": "Product_Id",
+            "num": 1698
           }
         ],
         "operator": "in [number]"
@@ -20,7 +25,10 @@
   },
   "expression": "Customer_Id in (\u0027627\u0027)",
   "$status": {
-    "validated": false
+    "validated": true,
+    "fullyTranslated": false,
+    "ok": false,
+    "message": "Incorrect formula: \u0027Customer_Id in (\u0027627\u0027)\u0027 : Unidentified token \"in\".  (Parsing error at offset 12)"
   },
   "distinct": false,
   "enabled": true
